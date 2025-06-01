@@ -1,0 +1,37 @@
+ body {
+     min-height: 100vh;
+     overflow-x: hidden;
+ }
+
+ .footer {
+     position: absolute;
+     bottom: 0;
+     width: 100%;
+     border-top: 1px solid rgb(196, 196, 196);
+     padding: 10px 0;
+     text-align: center;
+     color: #ffffff;
+     font-size: 12px;
+ }
+
+ .light_color {
+     color: #ffffff !important;
+ }
+
+ .user_image {
+     width: 40px;
+     height: 40px;
+     object-fit: cover;
+     border-radius: 50%;
+ }
+
+ .dropdown-menu {
+     white-space: nowrap;
+ }
+
+ label.error {
+     color: red;
+     font-size: 0.9em;
+     margin-top: 5px;
+     display: block;
+ }
